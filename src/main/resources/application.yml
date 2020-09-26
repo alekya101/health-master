@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/health_care?currentSchema=hc
+    username: hcuser
+    password: hcuser
+  jpa:
+    hibernate:
+      ddl-auto: create
